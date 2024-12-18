@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 99%;
+    width: 50%;
+}
+.top{
+    height: 50%;
+    width: 100%;
+    background-image: url(image/top1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+    
+}
+.bottom .part1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part1 .imgbox1{
+    height: 100%;
+    width: 25%;
+    align-self: baseline;
+    background-image: url(image/imgbox1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part1 .imgbox2{
+    height: 100%;
+    width: 25%;
+    align-self: last baseline;
+    background-image: url(image/imgbox2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part1 .imgbox3{
+    height: 100%;
+    width: 25%;
+    align-self: baseline;
+    background-image: url(image/imgbox3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part1 .imgbox4{
+    height: 100%;
+    width: 25%; 
+    align-self: last baseline;
+    background-image: url(image/imgbox4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bottom .part2{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+} 
+.part2 .upper{
+    height: 25%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.part2 .middle{
+    height: 45%;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.part2 .bottom{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.part2 .bottom .sponsorbox1{
+    height: 100%;
+    width: 20%;
+    background-image: url(image/sponsor1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.part2 .bottom .sponsorbox2{
+    height: 100%;
+    width: 20%;
+    background-image: url(image/sponsor2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.part2 .bottom .sponsorbox3{
+    height: 100%;
+    width: 20%;
+    background-image: url(image/sponsor3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.part2 .bottom .sponsorbox4{
+    height: 100%;
+    width: 20%;
+    background-image: url(image/sponsor4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.part2 .bottom .sponsorbox5{
+    height: 100%;
+    width: 20%;
+    background-image: url(image/sponsor5.jpeg);
+    background-position: center;
+    background-size: cover;
+}
